@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+RTCM3	RTCM3.py	/^class RTCM3:$/;"	c
+__init__	RTCM3.py	/^    def __init__(self):$/;"	m	class:RTCM3
+address	read_rtcm3.py	/^address = ('192.168.1.113',3000)$/;"	v
+bitValue	RTCM3.py	/^def bitValue(bitArray, start, length):$/;"	f
+byte_to_hex	read_rtcm3.py	/^def byte_to_hex(byte_data):$/;"	f
+cellmask	msg_1077.py	/^cellmask = [0]*4000$/;"	v
+clock_steering_indicator	msg_1077.py	/^clock_steering_indicator = 0$/;"	v
+crc24table	RTCM3.py	/^crc24table =  ($/;"	v
+crc_normal	RTCM3.py	/^def crc_normal (Message_Buffer):$/;"	f
+decode	RTCM3.py	/^    def decode(self, data, length, msg_id):$/;"	m	class:RTCM3
+decode_1077	RTCM3.py	/^def decode_1077(data):$/;"	f
+ecef_x	msg_1005.py	/^ecef_x = 0$/;"	v
+ecef_y	msg_1005.py	/^ecef_y = 0$/;"	v
+ecef_z	msg_1005.py	/^ecef_z = 0$/;"	v
+external_clock_indicator	msg_1077.py	/^external_clock_indicator = 0$/;"	v
+gps_dsi	msg_1077.py	/^gps_dsi = 0$/;"	v
+gps_epoch_time	msg_1077.py	/^gps_epoch_time = 0$/;"	v
+gps_si	msg_1077.py	/^gps_si = 0$/;"	v
+head_size	RTCM3.py	/^head_size = 0$/;"	v
+idos	msg_1077.py	/^idos = 0$/;"	v
+makeBitArray	RTCM3.py	/^def makeBitArray(data):$/;"	f
+message_number	msg_1077.py	/^message_number = 0$/;"	v
+multiple_message_bit	msg_1077.py	/^multiple_message_bit = 0$/;"	v
+new_data	read_rtcm3.py	/^    new_data = bytearray(s.recv(1024))$/;"	v
+nsat	msg_1077.py	/^nsat = 0$/;"	v
+nsig	msg_1077.py	/^nsig = 0$/;"	v
+reference_station_id	msg_1005.py	/^reference_station_id = 0$/;"	v
+reference_station_id	msg_1077.py	/^reference_station_id = 0$/;"	v
+rtcm3	read_rtcm3.py	/^rtcm3 = RTCM3.RTCM3()$/;"	v
+s	read_rtcm3.py	/^s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	v
+sats	msg_1077.py	/^sats = [0]*512$/;"	v
+sigs	msg_1077.py	/^sigs = [0]*512$/;"	v
